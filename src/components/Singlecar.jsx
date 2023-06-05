@@ -15,11 +15,11 @@ const Singlecar = () => {
   }, []);
 
   return (
-    <div className="cars">
-      <p>Model: {car.model}</p>
+    <div className="cars" style={{ justifyContent: "center" }}>
       <p>Brand: {car.brand}</p>
+      <p>Model: {car.model}</p>
       <p>Year: {car.year}</p>
-      <p>MaxSpeed: {car.maxSpeed}</p>
+      <p>Max Speed: {car.maxSpeed}</p>
       <p>Automatic: {car.isAutomatic ? "Yes" : "No"}</p>
       <p>Engine: {car.engine}</p>
     </div>

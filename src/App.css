@@ -64,3 +64,9 @@ button,
 p {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+.cars {
+  /* color: rgb(0, 0, 0); */
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
